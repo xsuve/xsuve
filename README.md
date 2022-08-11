@@ -1,12 +1,6 @@
 ![xsuve - Seeing solutions where others just see problems](screenshot.png)
 
-`2020 Series`
 # xsuve - Seeing solutions where others just see problems
-
-
-### Development
-* React
-* TailwindCSS
 
 ---
 
