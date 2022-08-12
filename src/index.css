@@ -22,12 +22,3 @@
 .slick-slider .slick-list .slick-track {
   @apply flex 2xl:gap-16 xl:gap-16 gap-6 2xl:px-0 xl:px-0 px-3;
 }
-
-.line {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}

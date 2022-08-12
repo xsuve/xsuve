@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import config from '../../config';
 
@@ -74,13 +75,15 @@ class Projects extends Component {
             {
               this.state.projects.map(project => (
                 <div key={project.id}>
-                  <div className={`2xl:rounded-3xl xl:rounded-3xl rounded-2xl overflow-hidden relative cursor-pointer hover:transform hover:scale-[1.02] transition-transform ease-in duration-150`} style={{ backgroundColor: project.color }}>
-                    <div className='2xl:p-24 xl:p-16 p-8 flex justify-between items-center'>
-                      <h1 className='font-prompt text-black 2xl:text-4xl xl:text-2xl text-lg font-medium'>{project.title}</h1>
-                      <p className='font-poppins text-neutral-500 2xl:text-base xl:text-sm text-xs font-light !leading-relaxed'>{project.series} • {project.status}</p>
+                  <Link to={`/project/${project.slug}`}>
+                    <div className={`2xl:rounded-3xl xl:rounded-3xl rounded-2xl overflow-hidden relative cursor-pointer hover:transform hover:scale-[1.02] transition-transform ease-in duration-150`} style={{ backgroundColor: project.color }}>
+                      <div className='2xl:p-24 xl:p-16 p-8 flex justify-between items-center'>
+                        <h1 className='font-prompt text-black 2xl:text-4xl xl:text-2xl text-lg font-medium'>{project.title}</h1>
+                        <p className='font-poppins text-neutral-500 2xl:text-base xl:text-sm text-xs font-light !leading-relaxed'>{project.series} • {project.status}</p>
+                      </div>
+                      <img src={`${config.api + '/projects/' + project.images[project.displayImage]}`} alt='' className='2xl:rounded-tl-3xl xl:rounded-tl-3xl rounded-tl-2xl 2xl:ml-16 xl:ml-16 ml-8' />
                     </div>
-                    <img src={`${config.api + '/projects/' + project.images[project.displayImage]}`} alt='' className='2xl:rounded-tl-3xl xl:rounded-tl-3xl rounded-tl-2xl 2xl:ml-16 xl:ml-16 ml-8' />
-                  </div>
+                    </Link>
                 </div>
               ))
             }

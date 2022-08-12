@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   constructor() {
@@ -52,9 +53,11 @@ class Navbar extends Component {
   render() {
     return (
       <div className='flex justify-between items-center 2xl:px-80 xl:px-64 px-6 2xl:py-8 xl:py-8 py-6 w-full absolute top-0 left-0 bg-white z-50'>
-        <div className='2xl:w-28 xl:w-24 w-20'>
-          <img src='xsuve-logo.svg' alt='xsuve' className='max-w-full' />
-        </div>
+        <Link to='/'>
+          <div className='2xl:w-28 xl:w-24 w-20'>
+            <img src='/xsuve-logo.svg' alt='xsuve' className='max-w-full' />
+          </div>
+        </Link>
         <div className='font-poppins text-neutral-400 font-normal 2xl:text-sm xl:text-xs text-xs tracking-wider leading-none'>
           <a href='mailto:george@xsuve.com'>GEORGE@XSUVE.COM</a>
         </div>
