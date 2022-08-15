@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Home from './pages/home/Home';
 import Project from './pages/project/Project';
@@ -11,6 +11,7 @@ class App extends Component {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/project/:slug' element={<Project />} />
+        <Route path='*' element={<Navigate to='/' />} />
       </Routes>
     );
   }

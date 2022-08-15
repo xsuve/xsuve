@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "text": "Very professional! First they analized the problems and then they provided solutions that fold the best on the needs.",
+    "author": "Iacob V.",
+    "position": "Founder & Editor",
+    "company": "RenovareCase"
+  },
+  {
+    "id": 2,
+    "text": "They built me a very nice website where now I can display my work. Would absolutely recommend them!",
+    "author": "Maria R.",
+    "position": "Founder & Creator",
+    "company": "artem"
+  },
+  {
+      "id": 3,
+      "text": "It was great to work with XSUVE. Very communicative, always present and very helpful. They know what they're doing!",
+      "author": "Mark B.",
+      "position": "CEO",
+      "company": "Telegraf"
+  },
+  {
+      "id": 4,
+      "text": "During the entire contract they carefully assisted me with the tasks and completed the work in a timely manner.",
+      "author": "Razvan B.",
+      "position": "Web Manager",
+      "company": "KeepCalling"
+  },
+  {
+      "id": 5,
+      "text": "They value their time spent on our products. The final result will please you for sure. Can't wait to work with them again!",
+      "author": "Aaron L.",
+      "position": "Founder",
+      "company": "Stoodeo"
+  }
+]

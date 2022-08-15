@@ -26,7 +26,6 @@ class Projects extends Component {
       }
     ]
   };
-
   prev = this.prev.bind(this);
   next = this.next.bind(this);
 

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "slug": "papers",
+        "title": "papers",
+        "series": "2019",
+        "status": "Ongoing",
+        "color": "#eff9fa",
+        "images": [
+            "papers/1.png"
+        ],
+        "displayImage": 0,
+        "description": "Web App for Streamlining Paperwork Processes",
+        "text": "Study Case Coming Soon."
+    },
+    {
+        "id": 2,
+        "slug": "vault",
+        "title": "vault",
+        "series": "2019",
+        "status": "Concluded",
+        "color": "#f5effc",
+        "images": [
+            "vault/1.png",
+            "vault/2.png",
+            "vault/3.png"
+        ],
+        "displayImage": 0,
+        "description": "Organize Websites & Applications Connection Details Project",
+        "text": "Study Case Coming Soon."
+    },
+    {
+        "id": 3,
+        "slug": "courier",
+        "title": "courier",
+        "series": "2017",
+        "status": "Concluded",
+        "color": "#fef6f2",
+        "images": [
+            "courier/1.png",
+            "courier/2.png",
+            "courier/3.png"
+        ],
+        "displayImage": 0,
+        "description": "Food Delivery Courier Statistics Platform & Social Network",
+        "text": "Study Case Coming Soon."
+    },
+    {
+        "id": 4,
+        "slug": "nevdy",
+        "title": "nevdy",
+        "series": "2017",
+        "status": "Ongoing",
+        "color": "#e8f8f5",
+        "images": [
+            "nevdy/1.png",
+            "nevdy/2.png",
+            "nevdy/3.png"
+        ],
+        "displayImage": 0,
+        "description": "Platform to Plan Outings with Friends & Travel More",
+        "text": "Study Case Coming Soon."
+    },
+    {
+        "id": 5,
+        "slug": "luxx",
+        "title": "luxx",
+        "series": "2020",
+        "status": "Concluded",
+        "color": "#eef3fd",
+        "images": [
+            "luxx/1.png",
+            "luxx/2.png",
+            "luxx/3.png"
+        ],
+        "displayImage": 1,
+        "description": "Professional CRM for Freelancers & Small Businesses",
+        "text": "Study Case Coming Soon."
+    },
+    {
+        "id": 6,
+        "slug": "parklo",
+        "title": "parklo",
+        "series": "2019",
+        "status": "Ongoing",
+        "color": "#e5e8ff",
+        "images": [
+            "parklo/mockup-1.png",
+            "parklo/mobile-1.png",
+            "parklo/mobile-2.png"
+        ],
+        "displayImage": 0,
+        "description": "Community Parking Spot Sharing Mobile App",
+        "text": "Study Case Coming Soon."
+    },
+    {
+        "id": 7,
+        "slug": "arhivaulbs",
+        "title": "ArhivaULBS",
+        "series": "2019",
+        "status": "Concluded",
+        "color": "#eef9f2",
+        "images": [
+            "arhivaulbs/1.png",
+            "arhivaulbs/2.png",
+            "arhivaulbs/3.png"
+        ],
+        "displayImage": 1,
+        "description": "Modern CMS Dashboard for University Application",
+        "text": "Study Case Coming Soon."
+    }
+]

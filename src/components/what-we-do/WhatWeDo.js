@@ -30,7 +30,7 @@ class WhatWeDo extends Component {
 
         <div className='bg-[#eef9f2] 2xl:rounded-3xl xl:rounded-3xl rounded-2xl overflow-hidden grid grid-cols-5 2xl:ml-36 xl:ml-24 ml-0 2xl:mb-32 xl:mb-16 mb-6'>
           <div className='2xl:col-span-3 xl:col-span-3 col-span-5 2xl:order-first xl:order-first order-last relative flex justify-center 2xl:pl-32 xl:pl-16'>
-            <img src={config.api + '/projects/arhivaulbs/mobile.png'} alt='' className='2xl:absolute xl:absolute relative max-h-full' />
+            <img src={config.api + '/projects/arhivaulbs/mockup.png'} alt='' className='2xl:absolute xl:absolute relative max-h-full' />
           </div>
           <div className='2xl:px-36 xl:px-24 px-12 2xl:py-32 py-12 2xl:col-span-2 xl:col-span-2 col-span-5'>
             <div className='bg-[#ceedd8] rounded-full flex items-center justify-center 2xl:w-16 xl:w-12 w-10 2xl:h-16 xl:h-12 h-10 mb-8'>
@@ -52,7 +52,7 @@ class WhatWeDo extends Component {
             <button className='font-poppins text-black 2xl:text-sm xl:text-xs text-xs font-medium tracking-wider cursor-pointer' onClick={this.scrollToProjects}>SEE OUR WORK</button>
           </div>
           <div className='2xl:col-span-3 xl:col-span-3 col-span-5 order-last relative flex justify-center 2xl:pt-8 xl:pt-4 2xl:px-0 xl:px-0 px-4'>
-            <img src={config.api + '/projects/parklo/mobile.png'} alt='' className='2xl:absolute xl:absolute relative max-h-full' />
+            <img src={config.api + '/projects/parklo/mockup-2.png'} alt='' className='2xl:absolute xl:absolute relative max-h-full' />
           </div>
         </div>
 

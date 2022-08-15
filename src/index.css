@@ -19,6 +19,20 @@
   animation: animateLove 0.75s cubic-bezier(0.6, 0, 0.1, 1);
 }
 
-.slick-slider .slick-list .slick-track {
+.projects .slick-slider .slick-list .slick-track {
   @apply flex 2xl:gap-16 xl:gap-16 gap-6 2xl:px-0 xl:px-0 px-3;
+}
+
+.project .slick-slider .slick-list {
+  @apply flex justify-center;
+}
+.project .slick-slider .slick-list div {
+  @apply align-middle flex justify-center items-center;
+}
+.project .slick-slider .slick-list .slick-track {
+  @apply flex items-center;
+}
+
+.xsuve-shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }

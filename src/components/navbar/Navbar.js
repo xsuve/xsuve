@@ -2,9 +2,10 @@ import { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
+      projectPage: this.props.projectPage ? true : false,
       loved: false
     };
 
@@ -54,8 +55,15 @@ class Navbar extends Component {
     return (
       <div className='flex justify-between items-center 2xl:px-80 xl:px-64 px-6 2xl:py-8 xl:py-8 py-6 w-full absolute top-0 left-0 bg-white z-50'>
         <Link to='/'>
-          <div className='2xl:w-28 xl:w-24 w-20'>
-            <img src='/xsuve-logo.svg' alt='xsuve' className='max-w-full' />
+          <div className='flex items-center'>
+            {
+              this.state.projectPage ? 
+                <div className='font-poppins 2xl:text-3xl xl:text-3xl text-lg !leading-none 2xl:mr-4 xl:mr-4 mr-2 pb-[5px]'>&larr;</div>
+              : null
+            }
+            <div className='2xl:w-28 xl:w-24 w-20'>
+              <img src='/xsuve-logo.svg' alt='xsuve - Seeing solutions where others just see problems.' className='max-w-full' />
+            </div>
           </div>
         </Link>
         <div className='font-poppins text-neutral-400 font-normal 2xl:text-sm xl:text-xs text-xs tracking-wider leading-none'>
