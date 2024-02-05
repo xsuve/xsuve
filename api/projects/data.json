@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "slug": "byro",
+    "title": "Byro - Necessary Documents for Bureaucratic Processes",
+    "series": "2023",
+    "category": "PERSONAL PROJECTS",
+    "images": ["1.png"],
+    "displayImage": 0,
+    "description": "Necessary Documents for Bureaucratic Processes"
+  },
+  {
+    "id": 2,
+    "slug": "arhivaulbs",
+    "title": "ArhivaULBS - University Exams Templates",
+    "series": "2019",
+    "category": "PERSONAL PROJECTS",
+    "images": ["1.png", "2.png", "3.png"],
+    "displayImage": 0,
+    "description": "University Exams Templates"
+  }
+]
