@@ -12,14 +12,14 @@ export default function Menu() {
   return (
     <div
       className={clsx(
-        'fixed top-0 left-0 right-0 bg-black 2xl:px-12 xl:px-12 px-6 z-20 overflow-hidden',
+        'fixed top-0 left-0 right-0 bg-black z-20 overflow-hidden',
         'transition-all ease-[cubic-bezier(0.75,0.3,0.75,0.45)] duration-300',
         isToggled ? 'h-screen' : 'h-0'
       )}
     >
       <div
         className={clsx(
-          'grid grid-cols-5 h-full 2xl:pt-48 xl:pt-48 pt-24 pb-24 2xl:gap-y-0 xl:gap-y-0 gap-y-8',
+          'grid grid-cols-5 h-full 2xl:pt-48 xl:pt-48 pt-24 pb-24 2xl:px-12 xl:px-12 px-6 2xl:gap-y-0 xl:gap-y-0 gap-y-8 overflow-auto',
           'transition-opacity ease-in-out',
           isToggled ? 'opacity-100' : 'opacity-0'
         )}

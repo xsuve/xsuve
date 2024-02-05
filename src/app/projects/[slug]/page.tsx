@@ -4,8 +4,10 @@ import { fetchData } from '@/app/utils/utils';
 import { ProjectData } from '@/app/types';
 
 export async function generateStaticParams() {
-  const endpoint = 'projects.json';
-  const projects = await fetchData<ProjectData[]>(config.api + endpoint);
+  const endpoint = '/projects';
+  const projects = await fetchData<ProjectData[]>(
+    config.api + endpoint + '/data.json'
+  );
 
   return projects.map((project: ProjectData) => ({
     slug: project.slug,

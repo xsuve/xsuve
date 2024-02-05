@@ -2,16 +2,21 @@ import Text from '@/app/components/Text/Text';
 
 export default function Presentation() {
   return (
-    <section className='2xl:h-screen xl:h-screen h-[60vh] bg-white 2xl:p-12 xl:p-12 p-6'>
+    <section className='2xl:h-screen xl:h-screen h-[500px] bg-white 2xl:p-12 xl:p-12 p-6'>
       <div className='rounded-2xl overflow-hidden h-full relative'>
         <video
           src='videos/presentation.mp4'
           autoPlay
           loop
           playsInline
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover 2xl:block xl:block hidden'
         ></video>
-        <div className='absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.5)] flex flex-col justify-between'>
+        <img
+          src='img/presentation.jpg'
+          alt=''
+          className='w-full h-full object-cover 2xl:hidden xl:hidden block'
+        />
+        <div className='absolute top-0 left-0 w-full h-full 2xl:bg-[rgba(0,0,0,0.5)] xl:bg-[rgba(0,0,0,0.5)] bg-[rgba(0,0,0,0.6)] flex flex-col justify-between'>
           <div className='w-full 2xl:py-8 xl:py-8 py-6 text-center'>
             <Text type='label' color='white'>
               END-TO-END COMMERCIAL PROJECTS

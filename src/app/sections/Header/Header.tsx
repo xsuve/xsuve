@@ -2,7 +2,7 @@ import Text from '@/app/components/Text/Text';
 
 export default function Header() {
   return (
-    <section className='relative bg-white 2xl:h-screen xl:h-screen h-[80vh] flex justify-center items-center'>
+    <section className='relative bg-white 2xl:h-screen xl:h-screen h-screen flex justify-center items-center'>
       <div className='2xl:w-[650px] xl:w-[650px] w-[300px] text-center'>
         <Text type='h1' className='2xl:-mt-[120px] xl:-mt-[120px] -mt-0'>
           Seeing <span className=''>solutions</span> where others just see
