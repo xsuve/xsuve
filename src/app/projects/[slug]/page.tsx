@@ -8,7 +8,6 @@ export async function generateStaticParams() {
   const projects = await fetchData<ProjectData[]>(
     config.api + endpoint + '/data.json'
   );
-
   return projects.map((project: ProjectData) => ({
     slug: project.slug,
   }));

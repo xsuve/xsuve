@@ -11,12 +11,12 @@
   },
   {
     "id": 2,
-    "slug": "arhivaulbs",
-    "title": "ArhivaULBS - University Exams Templates",
-    "series": "2019",
+    "slug": "spot",
+    "title": "Spot - Your AI Job Assistant",
+    "series": "2023",
     "category": "PERSONAL PROJECTS",
-    "images": ["1.png", "2.png", "3.png"],
+    "images": ["1.png"],
     "displayImage": 0,
-    "description": "University Exams Templates"
+    "description": "Better prepare for Job Interviews"
   }
 ]

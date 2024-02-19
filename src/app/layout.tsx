@@ -5,8 +5,8 @@ import './globals.css';
 import clsx from 'clsx';
 
 export const metadata: Metadata = {
-  title: 'xsuve - Seeing solutions where others just see problems.',
-  description: 'Seeing solutions where others just see problems.',
+  title: 'xsuve - Seeing solutions where others just see problems',
+  description: `Achieve professional exposure for your business. Whether is Development, Browser Extensions, Web Scraping or Automation - you won't miss with xsuve.`,
 };
 
 const MabryProFont = localFont({
