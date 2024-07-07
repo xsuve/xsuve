@@ -1,1 +1,1 @@
-![xsuve - Seeing solutions where others just see problems](screenshot.png)
+![xsuve - Seeing solutions where others just see problems](screenshot.jpg)
